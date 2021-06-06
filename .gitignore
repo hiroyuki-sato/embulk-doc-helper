@@ -1,0 +1,12 @@
+*~
+/apidoc/pkg/
+/apidoc/tmp/
+*.gemspec
+.gradle/
+/apidoc/classpath/
+/apidoc/build/
+.idea
+/apidoc/.settings/
+/apidoc/.metadata/
+.classpath
+.project

@@ -1,0 +1,41 @@
+plugins {
+    id "java"
+    id "org.embulk.embulk-plugins" version "0.4.2"
+}
+repositories {
+    mavenCentral()
+}
+
+group = "io.github.hiroyuki_sato"
+version = "0.1.0"
+description = "embulk document helper"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile "org.embulk:embulk-api:+"
+    compile "org.embulk:embulk-base-restclient:+"
+    compile "org.embulk:embulk-spi:+"
+    compile "org.embulk:embulk-util-aws-credentials:+"
+    compile "org.embulk:embulk-util-config:+"
+    compile "org.embulk:embulk-util-dynamic:+"
+    compile "org.embulk:embulk-util-file:+"
+    compile "org.embulk:embulk-util-guess:+"
+    compile "org.embulk:embulk-util-json:+"
+    compile "org.embulk:embulk-util-retryhelper-jaxrs:+"
+    compile "org.embulk:embulk-util-retryhelper-jetty92:+"
+    compile "org.embulk:embulk-util-retryhelper-jetty93:+"
+    compile "org.embulk:embulk-util-retryhelper:+"
+    compile "org.embulk:embulk-util-rubytime:+"
+    compile "org.embulk:embulk-util-snakeyaml:+"
+    compile "org.embulk:embulk-util-text:+"
+    compile "org.embulk:embulk-util-timestamp:+"
+}
+
+
+embulkPlugin {
+    mainClass = "org.embulk.input.apidoc.APIDocInputPlugin" // dummy
+    category = "input"
+    type = "apidoc"
+}
