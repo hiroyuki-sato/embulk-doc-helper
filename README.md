@@ -6,7 +6,7 @@
 | embulk-base-restclient | 0.10.1 |
 | embulk-spi | 0.10.31 |
 | embulk-util-aws-credentials | 0.4.0 |
-| embulk-util-config | 0.3.0 |
+| embulk-util-config | 0.3.1 |
 | embulk-util-dynamic | 0.1.0 |
 | embulk-util-file | 0.1.3 |
 | embulk-util-guess | 0.1.1 |
