@@ -2,9 +2,9 @@
 
 | name | version |
 |----|----|
-| embulk-api | 0.10.31 |
+| embulk-api | 0.10.32 |
 | embulk-base-restclient | 0.10.1 |
-| embulk-spi | 0.10.31 |
+| embulk-spi | 0.10.32 |
 | embulk-util-aws-credentials | 0.4.0 |
 | embulk-util-config | 0.3.1 |
 | embulk-util-dynamic | 0.1.0 |

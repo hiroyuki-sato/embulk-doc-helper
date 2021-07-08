@@ -22,9 +22,9 @@ org.eclipse.jetty:jetty-client:9.3.16.v20170120
 org.eclipse.jetty:jetty-http:9.3.16.v20170120
 org.eclipse.jetty:jetty-io:9.3.16.v20170120
 org.eclipse.jetty:jetty-util:9.3.16.v20170120
-org.embulk:embulk-api:0.10.31
+org.embulk:embulk-api:0.10.32
 org.embulk:embulk-base-restclient:0.10.1
-org.embulk:embulk-spi:0.10.31
+org.embulk:embulk-spi:0.10.32
 org.embulk:embulk-util-aws-credentials:0.4.0
 org.embulk:embulk-util-config:0.3.1
 org.embulk:embulk-util-dynamic:0.1.0
